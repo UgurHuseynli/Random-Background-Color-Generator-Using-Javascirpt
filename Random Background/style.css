@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background: #222222;
+    font-size: 35px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+p {
+    color: #fff;
+}
+
+button {
+    width: 10%;
+    margin: 30px auto;
+    border: none;
+    color: #fff;
+    background: #222222;
+    padding: 15px 20px; 
+    font-size: 20px;
+    border-radius: 60px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+button:hover {
+    border: 1px solid #222222;
+    background: transparent;
+    color: #222222;
+}
